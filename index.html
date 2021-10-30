@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bubbles | Canvas Experiment </title>
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <script src="https://kit.fontawesome.com/bd8a3be228.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <section>
+        <div class="wrapper-canvas wp-1">
+            <div class="container">
+                <canvas width='1000' height="1000" id="canvasCursorTracker"></canvas>
+            </div>
+            <div class="details">
+                <h2 class="title">Mouse tracker</h2>
+                <p class="description">
+                    Here the bubble follows the cursor position.
+                    <br>
+                    Mouse over the rounded zone to try it!
+                </p>
+            </div> 
+        </div>
+
+        <div class="wrapper-canvas wp-2">
+            <div class="container">
+                <canvas width='1000' height="1000" id="canvasMakePaths"></canvas>
+            </div>
+            <div class="details">
+                <h2 class="title">Path maker</h2>
+                <p class="description">
+                    Here the bubble make a path.
+                    <br>
+                    Mouse over the rounded zone to try it!
+                </p>
+
+                <div class="actions">
+                    <button id="clearPath">Clear</button>
+                    <input type="range" value="8" min="1" max="16" id="handlerBubbleSize">
+                </div>
+            </div> 
+        </div>
+
+        <div class="wrapper-canvas wp-3">
+            <div class="container">
+                <canvas width='1000' height="1000" id="simpleBubblesFx"></canvas>
+            </div>
+            <div class="details">
+                <h2 class="title">Bubbles</h2>
+                <p class="description">
+                    Here we make bubbles.
+                    <br>
+                    Mouse over the rounded zone to try it!
+                </p>
+            </div>
+        </div>
+
+        <div class="wrapper-canvas wp-4">
+            <div class="container">
+                <canvas width='1000' height="1000" id="bubblesFx"></canvas>
+            </div>
+            <div class="details">
+                <h2 class="title">bubbles freeze</h2>
+                <p class="description">
+                    Here we make bubbles that then freeze
+                    <br>
+                    Mouse over the rounded zone to try it!
+                </p>
+
+                <div class="actions">
+                    <button id="activeColorBtn">Active / Inactive Color</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="foot-collapse show">
+        <div class="head">
+            <button type="button" id="collapseBtnFoot">
+                <i class="fas fa-info-circle"></i>
+            </button>
+        </div>
+        <div class="grid">
+            <div class="content">
+                <div class="media">
+                    <a href="https://co.linkedin.com/in/carlos-esteban-le%C3%B3n-pinilla-a646a9125?trk=profile-badge" class="link-media" target="_blank"> 
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://carlosleoncode.com/" class="link-media website" target="_blank">
+                        <i class="fas fa-pager"></i>
+                    </a>
+                    <a href="https://github.com/CarlosLeonCode" class="link-media" target="_blank">
+                        <i class="fab fa-github-alt"></i>
+                    </a>
+                </div>
+
+                <div class="credits">
+                    Develop by Carlos León © <span id="footYear"></span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./src/js/main.js"></script>
+    <script src="./src/js/utils.js"></script>
+</body>
+</html>
