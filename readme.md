@@ -2,6 +2,8 @@
 
 This is a project in HTML Canvas. Here you can see what we can do using Vanilla JavaScript with HTML Canvas.
 
+![bubble](https://user-images.githubusercontent.com/40130036/170847747-fb3321e8-c935-4a9d-aebb-ed127ae15a09.gif)
+
 ## 👉 Technologies
 
 - 🌀 HTML 5 - Canvas
