@@ -14,7 +14,7 @@ You can check in live demo here,
 **It is recommendable use a Laptop to get a best experience, this is temporal**:
 
 
-[website](https://carlosleoncode.github.io/bubbles_canvas/)
+[website]([https://carlosleoncode.github.io/bubbles_canvas/](https://carlosleoncode.github.io/projct-bubbles-canvas/))
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
